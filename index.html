@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>ZentBuy spreadsheet – produktlänkar och svensk köpguide</title>
+<meta name="description" content="Bläddra bland tio kategorier och lär dig jämföra produktlänkar, storlekar, QC-bilder och frakt till Sverige med guiden ZentBuy spreadsheet.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="ZentBuy spreadsheet – produktlänkar och svensk köpguide">
+<meta property="og:description" content="Hitta rätt kategori och jämför storlek, QC-bilder och frakt före beställning.">
+<!-- Redaktionsunderlag: de tio första träffarna i den tillgängliga sökningen granskades. Googles exakta förstasida gick inte att verifiera. -->
+<style>
+:root{color-scheme:light;--paper:#f5f3eb;--ink:#222630;--muted:#515765;--line:#cccac1;--accent:#283b88;--yellow:#f1e89c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+a{color:var(--accent);text-underline-offset:.18em}
+a:focus-visible,summary:focus-visible{outline:3px solid #a04820;outline-offset:4px}
+header{border-bottom:1px solid var(--line);padding:.8rem 0}
+header a{font-weight:800}
+.hero{display:grid;grid-template-columns:1.45fr 1fr;gap:clamp(1rem,4vw,4rem);align-items:center;padding-block:clamp(1.5rem,4vw,3.5rem)}
+.eyebrow{color:var(--accent);font-size:.85rem;font-weight:800;letter-spacing:.06em}
+h1,h2,h3,p,figure{margin:0}
+h1,h2,h3{line-height:1.12}
+h1{font-size:clamp(2.45rem,7vw,5.6rem);letter-spacing:-.065em;overflow-wrap:anywhere}
+h2{font-size:clamp(1.6rem,3.5vw,2.75rem);letter-spacing:-.04em}
+h3{font-size:1.28rem}
+h1+p,h2+p,h3+p,p+p{margin-top:.8rem}
+p{max-width:67ch}
+img{display:block;width:100%;height:auto;background:#e7e5dd;object-fit:contain}
+.hero img{height:clamp(10rem,27vw,20rem)}
+figcaption{margin-top:.45rem;color:var(--muted);font-size:.86rem}
+.categories{background:var(--accent);color:white;padding:clamp(1rem,3vw,2rem)}
+.categories ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:.5rem;list-style:none;margin:1rem 0 0;padding:0}
+.categories li{display:flex}
+.categories a{display:flex;align-items:center;width:100%;min-height:3rem;padding:.55rem .7rem;background:var(--yellow);color:#202650;font-weight:700}
+section{margin-block:clamp(2rem,5vw,4rem)}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem;margin-top:1rem}
+.gallery img{aspect-ratio:1}
+.articles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1rem}
+article{border-top:3px solid var(--accent);padding-top:.8rem}
+details{border-bottom:1px solid var(--line);padding:.8rem 0}
+summary{cursor:pointer;font-weight:750}
+details p{padding-top:.4rem}
+footer{border-top:1px solid var(--line);padding:1.25rem 0 2rem;color:var(--muted)}
+@media(max-width:46rem){.articles{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:34rem){.hero{grid-template-columns:1fr}.hero img{height:10rem}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","name":"ZentBuy spreadsheet – produktlänkar och svensk köpguide","description":"Bläddra bland tio kategorier och lär dig jämföra produktlänkar, storlekar, QC-bilder och frakt till Sverige med guiden ZentBuy spreadsheet.","inLanguage":"sv"},
+    {"@type":"FAQPage","inLanguage":"sv","mainEntity":[
+      {"@type":"Question","name":"Vad är ett ZentBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Det är ett produktindex som samlar länkar för att göra det enklare att jämföra varor. Kategorierna i den här guiden öppnar Hipobuyfinds katalog."}},
+      {"@type":"Question","name":"Vad visar QC-bilder?","acceptedAnswer":{"@type":"Answer","text":"QC-bilder visar synliga detaljer på det fotograferade exemplaret, till exempel sömmar och etiketter. Bilderna räcker inte för att fastställa äkthet."}},
+      {"@type":"Question","name":"Hur jämför jag frakt till Sverige?","acceptedAnswer":{"@type":"Answer","text":"Ange Sverige som destination och jämför leveransvillkor utifrån paketets vikt och mått. Kontrollera den aktuella totalsumman och eventuella avgifter innan du betalar."}},
+      {"@type":"Question","name":"Vad gör jag om en produktlänk är bruten?","acceptedAnswer":{"@type":"Answer","text":"Sök efter modellnamnet eller artikelnumret i samma kategori. Kontrollera bilder och variant i den nya annonsen innan du sparar länken."}}
+    ]}
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/ztobt/">
+</head>
+<body>
+<header><div class="wrap"><a href="https://www.hipobuyfind.com">hipobuyfind.com</a></div></header>
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Svensk guide till produktlänkar</p>
+      <h1>ZentBuy spreadsheet</h1>
+      <p>Hitta rätt kategori först. Jämför sedan produktbilder, mått och fraktvillkor innan du sparar en länk. Kategorierna öppnar Hipobuyfinds produktkatalog.</p>
+    </div>
+    <figure>
+      <img src="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg?v=637654399803530000" alt="Vit Nike Air Force 1 ’07 med snörning och vit sula" width="640" height="480" loading="eager" fetchpriority="high">
+      <figcaption>Bildexempel: Nike Air Force 1 ’07.</figcaption>
+    </figure>
+  </div>
+
+  <nav class="categories" aria-labelledby="kategorier">
+    <h2 id="kategorier">Bläddra efter kategori</h2>
+    <ul>
+      <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Skor</a></li>
+      <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Huvtröjor och tröjor</a></li>
+      <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-shirts</a></li>
+      <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jackor</a></li>
+      <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Byxor och shorts</a></li>
+      <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Huvudbonader</a></li>
+      <li><a href="https://hipobuyfind.com/category-917-Sets.html">Klädset</a></li>
+      <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Underkläder</a></li>
+      <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Matchtröjor</a></li>
+      <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoarer</a></li>
+    </ul>
+  </nav>
+
+  <section aria-labelledby="val">
+    <h2 id="val">Från produktlänk till köpbeslut</h2>
+    <div class="articles">
+      <article>
+        <h3>Produktlänkar för ZentBuy</h3>
+        <p>För länkar från Weidian, Taobao eller 1688, kontrollera ursprungsannonsen innan du väljer variant. Anteckna modellnamn, artikelnummer och färgkod. Om två annonser använder samma säljarbilder, jämför materialbeskrivningen, säljarens returvillkor och den valda varianten.</p>
+      </article>
+      <article>
+        <h3>Storleksguide för sneakers och kläder</h3>
+        <p>Jämför fotlängd i centimeter med tabellen för just den skomodellen. För en huvtröja eller jeansjacka, mät bröstbredd och ärmlängd på ett plagg du redan bär. Kolla innerbenslängd på byxor, huvudomkrets på kepsar och kedjelängd på halsband.</p>
+      </article>
+      <article>
+        <h3>QC-bilder och frakt till Sverige</h3>
+        <p>Om du får kvalitetsbilder, jämför etikett, sömmar, sulans undersida och eventuella skador med annonsen. Räkna sedan på varupriset, eventuell inrikesfrakt och internationell frakt. Jämför faktisk vikt och volymvikt och kontrollera hur moms och hanteringsavgifter redovisas.</p>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="bilder">
+    <h2 id="bilder">Detaljer att jämföra</h2>
+    <p>Bildexemplen visar hur du kan jämföra mönster, material och proportioner. Sortiment och tillgänglighet framgår av respektive produktannons.</p>
+    <div class="gallery">
+      <figure>
+        <img src="https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-denim-jacket--FVJA29EFY610_PM2_Front%20view.png?hei=480&amp;wid=480" alt="Louis Vuitton-jeansjacka med monogram, sedd framifrån" width="480" height="480" loading="lazy" decoding="async">
+        <figcaption>Louis Vuitton · jackans skärning</figcaption>
+      </figure>
+      <figure>
+        <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" alt="Beige Gucci-keps i canvas med GG-mönster" width="640" height="640" loading="lazy" decoding="async">
+        <figcaption>Gucci · kepsens mönster</figcaption>
+      </figure>
+      <figure>
+        <img src="https://assets.hermes.com/is/image/hermesproduct/carre-90-de-toujours-brides-de-gala--001266S%2075-detail-wm-5-0-0-800-800_g.jpg" alt="Närbild på mönstret i Hermès Brides de Gala Carré 90" width="800" height="800" loading="lazy" decoding="async">
+        <figcaption>Hermès · scarfens tryck</figcaption>
+      </figure>
+      <figure>
+        <img src="https://assets.christiandior.com/is/image/diorprod/N2241WOMCYD03S_SBG_E01-2?%24r9x10_raw%24=&amp;crop=0%2C0%2C4000%2C5000&amp;hei=520&amp;scale=1&amp;wid=480" alt="Dior Petit CD-halsband med kristalldetaljer" width="480" height="520" loading="lazy" decoding="async">
+        <figcaption>Dior · halsbandets detaljer</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="fragor">
+    <h2 id="fragor">Vanliga frågor</h2>
+    <details open><summary>Vad är ett ZentBuy spreadsheet?</summary><p>Det är ett produktindex som samlar länkar för att göra det enklare att jämföra varor. Kategorierna i den här guiden öppnar Hipobuyfinds katalog.</p></details>
+    <details><summary>Vad visar QC-bilder?</summary><p>QC-bilder visar synliga detaljer på det fotograferade exemplaret, till exempel sömmar och etiketter. Bilderna räcker inte för att fastställa äkthet.</p></details>
+    <details><summary>Hur jämför jag frakt till Sverige?</summary><p>Ange Sverige som destination och jämför leveransvillkor utifrån paketets vikt och mått. Kontrollera den aktuella totalsumman och eventuella avgifter innan du betalar.</p></details>
+    <details><summary>Vad gör jag om en produktlänk är bruten?</summary><p>Sök efter modellnamnet eller artikelnumret i samma kategori. Kontrollera bilder och variant i den nya annonsen innan du sparar länken.</p></details>
+  </section>
+</main>
+<footer><div class="wrap"><p>Fristående köpguide. <a href="https://www.hipobuyfind.com">Öppna hipobuyfind.com</a></p></div></footer>
+</body>
+</html>
